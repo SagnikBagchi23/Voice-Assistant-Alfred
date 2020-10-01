@@ -134,6 +134,10 @@ if __name__ =="__main__":
                pyttsx3.speak("Thank you Sir, goodbye, have a nice day ahead")
                print("Thank you Sir, goodbye, have a nice day ahead.")
                break
+                
+          elif("shutdown" in p):
+               pyttsx3.speak("All Shutting down sequence starrting sir;process killing complete sir , Have a nice day")
+                os.system('shutdown -s')
 
 
           else:
